@@ -1,0 +1,124 @@
+Переменные.
+1 - let Nibiru;
+Nibiru = "Nibiru";
+2 - let userData;
+userData = "User";
+alert(userData);
+3 - let passwordkey;
+passwordkey = password12345;
+4 - Задана переменная name с строчным значением "Andrey"
+Первый alert выведет строчное значение hello с единицей. (hello 1)
+Второй alert выведет строчное значение hello с строчным значением name. (hello name)
+Третий alert выведет строчное значение hello с обращением к переменной name с её внутренним строчным значением "Andrey". (hello Andrey)
+let a = 2;
+a = a + 1;
+a = a *= 2;
+console.log(a);
+
+Математика.
+1 a = 4 x = 5 
+2. 10
+-1
+1
+2
+6
+9px
+2
+NaN
+-9 5
+-14
+1
+NaN
+-2
+3. let a = +prompt("Первое число?", 1);
+let b = +prompt("Второе число?", 2);
+
+alert(a + b);
+
+Сравнения.
+True
+False
+True
+True
+False
+False
+False
+
+Циклы.
+1
+Префиксный вариант.
+1
+2
+3
+4
+Постфиксный вариант i++
+1
+2
+3
+4
+5
+
+2. 0, 1, 2, 3, 4
+
+3. for (let i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    alert( i );
+  }
+}
+
+4. let i = 0;
+while (i < 3) {
+  alert( `number ${i}!` );
+  i++;
+}
+
+5. let num;
+
+do {
+  num = prompt("Введите число больше 100?", 0);
+} while (num <= 100 && num);
+
+Ветвления
+
+1. const number = +prompt('Введите число между 0 и 3', '');
+
+switch (number) {
+  case 0:
+    alert('Вы ввели число 0');
+    break;
+
+  case 1:
+    alert('Вы ввели число 1');
+    break;
+
+  case 2:
+  case 3:
+    alert('Вы ввели число 2, а может и 3');
+    break;
+}
+
+2. if(browser == 'Edge') {
+  alert("You've got the Edge!");
+} else if (browser == 'Chrome'
+ || browser == 'Firefox'
+ || browser == 'Safari'
+ || browser == 'Opera') {
+  alert( 'Okay we support these browsers too' );
+} else {
+  alert( 'We hope that this page looks ok!' );
+}
+
+Функции.
+
+let Userlogin = prompt("Введите ваш логин");
+if (Userlogin == "Gevorg") {
+  alert("Логин верен");
+} else {
+  alert("Логин не верен");
+}
+let Userpassword = prompt("Введите ваш пароль");
+if (Userpassword == "Gev777") {
+  alert("Ура! вы Авторизовались");
+} else {
+  alert("Пароль не верен");
+}
